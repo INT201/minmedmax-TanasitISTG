@@ -30,9 +30,7 @@ function minMedMax(n1, n2, n3) {
       max = n1
     }
   }
-  console.log({ min, mid, max })
+  return { min, mid, max }
 }
-
-minMedMax(-1, -8, 0)
 
 module.exports = minMedMax
